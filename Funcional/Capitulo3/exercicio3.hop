@@ -1,0 +1,4 @@
+duploFatorial : num -> num;
+duploFatorial 0 <= 1;
+duploFatorial 1 <= 1;
+duploFatorial n <= n * duploFatorial (n - 2); 

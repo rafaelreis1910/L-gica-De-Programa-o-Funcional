@@ -1,0 +1,3 @@
+last' : list num -> num;
+last' ([x]) <= x;
+last' (_ :: xs) <= last' xs; 

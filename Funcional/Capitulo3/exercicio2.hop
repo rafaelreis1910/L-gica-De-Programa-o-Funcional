@@ -1,0 +1,3 @@
+repetir : num # num -> list num;
+repetir (0, _) <= [];
+repetir (n + 1, x) <= x :: repetir (n, x); 

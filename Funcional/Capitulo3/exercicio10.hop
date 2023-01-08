@@ -1,0 +1,3 @@
+concat' : list (list num) -> list num;
+concat' [] <= [];
+concat' (xs :: xss) <= xs <> concat' xss;

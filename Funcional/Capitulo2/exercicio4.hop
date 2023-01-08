@@ -1,0 +1,2 @@
+areaDeCoroaCircular : num # num -> num;
+areaDeCoroaCircular (r1, r2) <= pi * (pow (r2, 2) - pow (r1, 2));

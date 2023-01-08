@@ -1,0 +1,5 @@
+xor1 : truval # truval -> truval;
+xor1 (true, true) <= false;
+xor1 (true, false) <= true;
+xor1 (false, true) <= true;
+xor1 (false, false) <= false; 

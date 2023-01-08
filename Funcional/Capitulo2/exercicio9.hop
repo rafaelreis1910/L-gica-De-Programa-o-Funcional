@@ -1,0 +1,2 @@
+mostraMenorMaior : list num -> list num;
+mostraMenorMaior xs <= [minimum xs, maximum xs];

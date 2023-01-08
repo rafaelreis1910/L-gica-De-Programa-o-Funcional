@@ -1,0 +1,2 @@
+palindromo : list num -> truval;
+palindromo xs <= xs = reverse xs;

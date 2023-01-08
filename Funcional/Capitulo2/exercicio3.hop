@@ -1,0 +1,2 @@
+volumeEsfera : num -> num;
+volumeEsfera r <= 4 / 3 * pi * pow (r, 3); 

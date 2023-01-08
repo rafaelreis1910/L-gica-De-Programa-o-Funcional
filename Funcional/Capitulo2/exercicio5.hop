@@ -1,0 +1,2 @@
+ultimoDigito : num -> num;
+ultimoDigito x <= x mod 10; 

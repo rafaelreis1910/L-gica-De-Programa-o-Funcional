@@ -1,0 +1,2 @@
+maxTres : num # num # num -> num;
+maxTres (x, y, z) <= max (x, max (y, z)); 

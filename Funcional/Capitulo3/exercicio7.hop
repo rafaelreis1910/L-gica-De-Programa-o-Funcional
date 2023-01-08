@@ -1,0 +1,3 @@
+and' : list truval -> truval;
+and' [] <= true;
+and' (b :: bs) <= b and' bs; 

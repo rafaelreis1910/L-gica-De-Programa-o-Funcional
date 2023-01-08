@@ -1,0 +1,2 @@
+rota : list num -> list num;
+rota xs <= tail xs <> [head xs]; 

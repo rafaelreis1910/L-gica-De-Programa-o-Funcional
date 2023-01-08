@@ -1,0 +1,4 @@
+menorDivisivel : num # num -> num;
+menorDivisivel (a, b) <= if a = b
+ then a
+ else lcm (a, menorDivisivel (a + 1, b)); 

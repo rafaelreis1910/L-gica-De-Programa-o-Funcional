@@ -1,0 +1,3 @@
+elem' : num # list num -> truval;
+elem' (x, []) <= false;
+elem' (x, y :: ys) <= if x = y then true else elem' (x, ys); 
